@@ -1,0 +1,132 @@
+html, body { height: 100%; }
+
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 90%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.header {
+  background: black;
+  color: white;
+  padding: 16px 0;
+}
+
+.header-arriba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.nav a:hover {
+  background: grey;
+}
+nav {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background:grey;
+}
+
+body > h1 {
+  width: 90%;
+  max-width: 950px;
+  margin: 22px auto 10px;
+}
+
+ul {
+  width: 90%;
+  max-width: 950px;
+  margin: 0 auto 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.recu {
+  background: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 14px;
+}
+
+.recu h2 {
+  margin-top: 0;
+}
+
+.foto {
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid white;
+  display: block;
+  margin: 10px 0;
+}
+
+.recu p {
+  color: #444;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer{
+  background: black;
+  color: white;
+  padding: 10px 0;
+}
+
+.footer-arriba{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
