@@ -1,10 +1,9 @@
 html, body { height: 100%; }
-
 body{
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #eef2f6;
-  color: #222;
+  background: white;
+  color: black;
 
   display: flex;
   flex-direction: column;
@@ -17,7 +16,7 @@ body{
 }
 
 .header{
-  background: #0f172a;
+  background: black;
   color: white;
   padding: 16px 0;
 }
@@ -44,31 +43,31 @@ body{
 }
 
 .nav a:hover{
-  background: rgba(255,255,255,0.15);
+  background: grey;
 }
 
 .nav a.titulo{
-  background: #2563eb;
+  background: blue;
 }
 
 main{ flex: 1; padding: 22px 0; }
 
 .medio{
   background: white;
-  border: 1px solid #d9e1ea;
+  border: 1px solid gray;
   border-radius: 10px;
   padding: 18px;
 }
 
 .presnetaciop{
   margin: 0;
-  color: #2563eb;
+  color: blue;
   font-weight: bold;
 }
 
 .texto{
   margin: 0 0 14px;
-  color: #444;
+  color: gray;
 }
 
 .bloques{
@@ -80,7 +79,7 @@ main{ flex: 1; padding: 22px 0; }
 
 .bloque{
   background: white;
-  border: 1px solid #d9e1ea;
+  border: 1px solid black;
   border-radius: 10px;
   padding: 14px;
 }
@@ -90,7 +89,7 @@ main{ flex: 1; padding: 22px 0; }
 }
 
 .bloque a{
-  color: #2563eb;
+  color: blue;
   text-decoration: none;
   font-weight: bold;
 }
@@ -100,7 +99,7 @@ main{ flex: 1; padding: 22px 0; }
 }
 
 .footer{
-  background: #0f172a;
+  background: black;
   color: white;
   padding: 10px 0;
 }
